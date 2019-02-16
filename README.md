@@ -1,21 +1,32 @@
-<br/>
 <p align="center">
-<img src="https://i.imgur.com/bYwl7Vf.png" alt="Learn Regex">
-</p><br/>
+    <br/>
+    <a href="https://github.com/ziishaned/learn-regex">
+        <img src="https://i.imgur.com/bYwl7Vf.png" alt="Learn Regex">
+    </a>
+    <br /><br />
+    <p>
+        <a href="https://twitter.com/home?status=Learn%20regex%20the%20easy%20way%20by%20%40ziishaned%20http%3A//github.com/ziishaned/learn-regex">
+            <img src="https://img.shields.io/badge/twitter-tweet-blue.svg?style=flat-square"/>
+        </a>
+        <a href="https://twitter.com/ziishaned">
+            <img src="https://img.shields.io/badge/feedback-@ziishaned-blue.svg?style=flat-square" />
+        </a>
+    </p>
+</p>
 
 ## Translations:
 
 * [English](README.md)
-* [Español](README-es.md)
-* [Français](README-fr.md)
-* [Português do Brasil](README-pt_BR.md)
-* [中文版](README-cn.md)
-* [日本語](README-ja.md)
-* [한국어](README-ko.md)
-* [Turkish](README-tr.md)
-* [Greek](README-gr.md)
-* [Magyar](README-hu.md)
-* [Polish](README-pl.md)
+* [Español](translations/README-es.md)
+* [Français](translations/README-fr.md)
+* [Português do Brasil](translations/README-pt_BR.md)
+* [中文版](translations/README-cn.md)
+* [日本語](translations/README-ja.md)
+* [한국어](translations/README-ko.md)
+* [Turkish](translations/README-tr.md)
+* [Greek](translations/README-gr.md)
+* [Magyar](translations/README-hu.md)
+* [Polish](translations/README-pl.md)
 
 ## What is Regular Expression?
 
@@ -409,7 +420,7 @@ shorthand character sets are as follows:
 
 Lookbehind and lookahead (also called lookaround) are specific types of
 ***non-capturing groups*** (Used to match the pattern but not included in matching
-list). Lookaheads are used when we have the condition that this pattern is
+list). Lookarounds are used when we have the condition that this pattern is
 preceded or followed by another certain pattern. For example, we want to get all
 numbers that are preceded by `$` character from the following input string
 `$4.44 and $10.88`. We will use following regular expression `(?<=\$)[0-9\.]*`
@@ -583,10 +594,10 @@ possible. we can use `?` to match in lazy way means as short as possible
 
 ## Contribution
 
-* Report issues
 * Open pull request with improvements
+* Discuss ideas in issues
 * Spread the word
-* Reach out to me directly at ziishaned@gmail.com or [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/ziishaned.svg?style=social&label=Follow%20%40ziishaned)](https://twitter.com/ziishaned)
+* Reach out with any feedback [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/ziishaned.svg?style=social&label=Follow%20%40ziishaned)](https://twitter.com/ziishaned)
 
 ## License
 
